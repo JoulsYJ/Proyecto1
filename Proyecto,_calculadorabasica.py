@@ -2,19 +2,19 @@ def calculadora():
     print("===Calculadora de papulandia===")
     print("PapuOperaciones: + , - , * , /")
 
-    num1 = float(input("Ingresa el primer número: "))
+    numero1 = float(input("Ingresa el primer número: "))
     operacion = input("Elige una operación (+, -, *, /): ")
-    num2 = float(input("Ingresa el segundo número: "))
+    numero2 = float(input("Ingresa el segundo número: "))
 
     if operacion == "+":
-        resultado = num1 + num2
+        resultado = numero1 + numero2
     elif operacion == "-":
-        resultado = num1 - num2
+        resultado = numero1 - numero2
     elif operacion == "*":
-        resultado = num1 * num2
+        resultado = numero1 * numero2
     elif operacion == "/":
-        if num2 != 0:
-            resultado = num1 / num2
+        if numero2 != 0:
+            resultado = numero1 / numero2
         else:
             return "Error: No se puede dividir entre cero."
     else:
