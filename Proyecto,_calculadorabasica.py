@@ -1,5 +1,5 @@
 def calculadora():
-    print("--- Calculadora Básica ---")
+    print("===Calculadora de papulandia===")
     print("Operaciones: + , - , * , /")
 
     num1 = float(input("Ingresa el primer número: "))
