@@ -1,6 +1,6 @@
 def calculadora():
     print("===Calculadora de papulandia===")
-    print("Operaciones: + , - , * , /")
+    print("PapuOperaciones: + , - , * , /")
 
     num1 = float(input("Ingresa el primer número: "))
     operacion = input("Elige una operación (+, -, *, /): ")
